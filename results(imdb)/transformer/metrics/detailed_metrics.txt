@@ -1,0 +1,27 @@
+TRANSFORMER DETAILED METRICS
+==================================================
+
+Accuracy: 0.8268
+Precision: 0.8249
+Recall: 0.8410
+F1 Score: 0.8329
+ROC AUC: 0.9100
+
+Training Information:
+Training time: 6212.81 seconds
+Inference speed: 0.00586 seconds/sample
+Memory usage: 2344.80 MB
+
+Confusion Matrix:
+[[ 988  229]
+ [ 204 1079]]
+
+Long Sequence Performance:
+Length 128: Time = 0.00561s, Memory = 7866.57 MB
+Length 256: Time = 0.00585s, Memory = 7866.57 MB
+Length 512: Time = 0.00699s, Memory = 7866.57 MB
+Length 1024: Time = 0.01608s, Memory = 7866.57 MB
+Length 2048: Time = 0.03842s, Memory = 7866.57 MB
+Length 4096: Time = 0.11046s, Memory = 7866.57 MB
+Length 8192: Time = 0.35777s, Memory = 7866.57 MB
+Length 16384: Time = 1.30131s, Memory = 7866.57 MB

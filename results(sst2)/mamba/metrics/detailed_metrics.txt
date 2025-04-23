@@ -1,0 +1,27 @@
+MAMBA DETAILED METRICS
+==================================================
+
+Accuracy: 0.8303
+Precision: 0.8318
+Recall: 0.8356
+F1 Score: 0.8337
+ROC AUC: 0.9025
+
+Training Information:
+Training time: 2039.62 seconds
+Inference speed: 0.00660 seconds/sample
+Memory usage: 2163.04 MB
+
+Confusion Matrix:
+[[353  75]
+ [ 73 371]]
+
+Long Sequence Performance:
+Length 128: Time = 0.00666s, Memory = 2629.04 MB
+Length 256: Time = 0.00674s, Memory = 2629.04 MB
+Length 512: Time = 0.00678s, Memory = 2629.04 MB
+Length 1024: Time = 0.01246s, Memory = 2629.04 MB
+Length 2048: Time = 0.02406s, Memory = 2629.04 MB
+Length 4096: Time = 0.04616s, Memory = 2758.79 MB
+Length 8192: Time = 0.10009s, Memory = 4461.39 MB
+Length 16384: Time = 0.19732s, Memory = 7866.57 MB

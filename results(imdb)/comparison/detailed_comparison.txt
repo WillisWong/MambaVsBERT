@@ -1,0 +1,122 @@
+DETAILED MODEL COMPARISON REPORT
+==================================================
+
+CLASSIFICATION PERFORMANCE
+------------------------------
+
+Accuracy:
+  Mamba: 0.8844
+  Transformer: 0.8268
+  Difference: 0.0576
+  Ratio (M/T): 1.0697
+
+Precision:
+  Mamba: 0.8806
+  Transformer: 0.8249
+  Difference: 0.0556
+  Ratio (M/T): 1.0674
+
+Recall:
+  Mamba: 0.8963
+  Transformer: 0.8410
+  Difference: 0.0553
+  Ratio (M/T): 1.0658
+
+F1 Score:
+  Mamba: 0.8884
+  Transformer: 0.8329
+  Difference: 0.0555
+  Ratio (M/T): 1.0666
+
+ROC AUC:
+  Mamba: 0.9447
+  Transformer: 0.9100
+  Difference: 0.0348
+  Ratio (M/T): 1.0382
+
+
+EFFICIENCY METRICS
+------------------------------
+
+Training Time (s):
+  Mamba: 5601.5581
+  Transformer: 6212.8123
+  Ratio (T/M): 1.1091
+  Mamba is more efficient
+
+Inference Speed (s/sample):
+  Mamba: 0.0068
+  Transformer: 0.0059
+  Ratio (T/M): 0.8683
+  Transformer is more efficient
+
+Memory Usage (MB):
+  Mamba: 2150.4570
+  Transformer: 2344.8047
+  Ratio (T/M): 1.0904
+  Mamba is more efficient
+
+
+LONG SEQUENCE PERFORMANCE
+------------------------------
+
+Sequence Length 128:
+  Time (s): Mamba = 0.00681, Transformer = 0.00561, Ratio (T/M) = 0.82x
+  Memory (MB): Mamba = 4362.05, Transformer = 7866.57, Ratio (T/M) = 1.80x
+  Transformer is faster
+  Mamba is more memory efficient
+
+Sequence Length 256:
+  Time (s): Mamba = 0.00676, Transformer = 0.00585, Ratio (T/M) = 0.86x
+  Memory (MB): Mamba = 4362.05, Transformer = 7866.57, Ratio (T/M) = 1.80x
+  Transformer is faster
+  Mamba is more memory efficient
+
+Sequence Length 512:
+  Time (s): Mamba = 0.00687, Transformer = 0.00699, Ratio (T/M) = 1.02x
+  Memory (MB): Mamba = 4362.05, Transformer = 7866.57, Ratio (T/M) = 1.80x
+  Mamba is faster
+  Mamba is more memory efficient
+
+Sequence Length 1024:
+  Time (s): Mamba = 0.01224, Transformer = 0.01608, Ratio (T/M) = 1.31x
+  Memory (MB): Mamba = 4362.05, Transformer = 7866.57, Ratio (T/M) = 1.80x
+  Mamba is faster
+  Mamba is more memory efficient
+
+Sequence Length 2048:
+  Time (s): Mamba = 0.02421, Transformer = 0.03842, Ratio (T/M) = 1.59x
+  Memory (MB): Mamba = 4362.05, Transformer = 7866.57, Ratio (T/M) = 1.80x
+  Mamba is faster
+  Mamba is more memory efficient
+
+Sequence Length 4096:
+  Time (s): Mamba = 0.04615, Transformer = 0.11046, Ratio (T/M) = 2.39x
+  Memory (MB): Mamba = 4362.05, Transformer = 7866.57, Ratio (T/M) = 1.80x
+  Mamba is faster
+  Mamba is more memory efficient
+
+Sequence Length 8192:
+  Time (s): Mamba = 0.10120, Transformer = 0.35777, Ratio (T/M) = 3.54x
+  Memory (MB): Mamba = 4461.39, Transformer = 7866.57, Ratio (T/M) = 1.76x
+  Mamba is faster
+  Mamba is more memory efficient
+
+Sequence Length 16384:
+  Time (s): Mamba = 0.19950, Transformer = 1.30131, Ratio (T/M) = 6.52x
+  Memory (MB): Mamba = 7866.57, Transformer = 7866.57, Ratio (T/M) = 1.00x
+  Mamba is faster
+  Transformer is more memory efficient
+
+
+SUMMARY
+------------------------------
+
+Mamba outperforms Transformer in classification accuracy by 0.0576
+Mamba is 1.11x faster in training than Transformer
+Mamba and Transformer have similar memory usage
+Mamba is on average 2.26x faster for long sequences than Transformer
+Mamba uses on average 0.59x less memory for long sequences than Transformer
+
+FINAL CONCLUSION:
+Mamba appears to be both more accurate and more efficient than Transformer for this task.

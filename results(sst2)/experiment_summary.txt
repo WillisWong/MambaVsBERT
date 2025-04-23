@@ -1,0 +1,24 @@
+MAMBA VS TRANSFORMER EXPERIMENT SUMMARY
+==================================================
+
+Experiment mode: FULL
+Total experiment time: 1h 7m 18.80s
+
+Mamba model: SUCCESS
+  - Accuracy: 0.8303
+  - F1 Score: 0.8337
+  - Training time: 2039.62s
+
+Transformer model: SUCCESS
+  - Accuracy: 0.8142
+  - F1 Score: 0.8172
+  - Training time: 1935.59s
+
+Models comparison: SUCCESS
+  - See 'results/comparison/' directory for detailed reports and visualizations
+
+
+Results directories:
+  - Mamba results: ./results/mamba/
+  - Transformer results: ./results/transformer/
+  - Comparison results: ./results/comparison/

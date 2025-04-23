@@ -6,7 +6,14 @@ CityU 2025 SDSC6002 Research Project
 This project involves performing sentiment analysis using multiple datasets and models. The primary focus is on exploring the IMDb and SST-2 datasets, utilizing different models and techniques for natural language processing (NLP). The results of the experiments are saved and stored in separate folders for each dataset.
 
 ## Directory Structure
-├── results(imdb)/ ├── results(sst2)/ ├── LICENSE ├── MVTv2(imdb).ipynb ├── MVTv2(sst2).ipynb ├── README.md ├── imdb_eda.ipynb └── sst2_eda.ipynb
+├── results(imdb)/ 
+├── results(sst2)/ 
+├── LICENSE 
+├── MVTv2(imdb).ipynb 
+├── MVTv2(sst2).ipynb 
+├── README.md 
+├── imdb_eda.ipynb 
+└── sst2_eda.ipynb
 
 
 ### Folders

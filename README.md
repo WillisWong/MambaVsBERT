@@ -30,12 +30,3 @@ This project involves performing sentiment analysis using multiple datasets and 
 
 ### LICENSE
 The `LICENSE` file contains the licensing information for the project.
-
-## Installation
-
-To run the notebooks and experiments, clone the repository and install the necessary Python packages:
-
-```bash
-git clone <repository_url>
-cd <repository_directory>
-pip install -r requirements.txt
